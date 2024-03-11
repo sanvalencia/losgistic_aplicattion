@@ -1,0 +1,14 @@
+# Ignorar archivos y directorios generados automáticamente
+node_modules
+npm-debug.log
+mysql
+# Ignorar archivos y directorios específicos de Nest.js
+dist
+.env
+# Ignorar archivos específicos de Docker
+.dockerignore
+docker-compose.yml
+# Otros archivos que no se necesitan en la imagen Docker
+.git
+.idea
+.vscode
